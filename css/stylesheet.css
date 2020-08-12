@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    color: black;
+    background-color: pink;
+}
+
+a.button:visited
+{
+ color:inherit;
+}
+.button
+{
+ padding: 6px 8px;
+ font-size: 14px;
+ font-weight: bold;
+ text-decoration: none;
+ margin-right: 10px;
+ border-radius: 6px;
+}
+.blue
+{
+ border: 1px solid #2d748c;
+ background-color: #40b5dc;
+}
+tr, td, th {
+    border: 1px solid black;
+  }
+  .box {
+    width:500px;
+    height:300px;
+    position: fixed;
+    margin-left:-250px; 
+    margin-top:-150px;  
+    top:50%;
+    left:50%;
+}
+a
+{
+  color:darkblue;
+  text-decoration: none;
+}
+.wrapper {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
