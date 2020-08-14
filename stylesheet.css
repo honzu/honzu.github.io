@@ -1,0 +1,10 @@
+div.hidden {
+    display: none;
+    padding-left: 50%;
+    text-align: center;
+}
+h1 {
+}
+a {
+    text-decoration: none;
+}
