@@ -1,2 +1,3 @@
 # honzuwu.wtf
-p website lah
+testing animations and other shits
+also fuck @keyframes im staying with jquery
