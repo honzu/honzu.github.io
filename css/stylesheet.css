@@ -65,7 +65,7 @@ h1 {
     color:white 
 }
 
-#main {
+.main {
     border-radius: 5%;
     background-color: #000000a0;
     padding: 20px;
@@ -77,11 +77,11 @@ h1 {
     text-align: center;
 }
 
-#ok {
+.ok {
     height: 5px
 }
 
-#men {
+.men {
     color:white;
 }
 /*(='X'=)
