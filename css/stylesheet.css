@@ -3,6 +3,11 @@
     to {opacity: 100%};
 }
 
+@keyframes slideDown {
+    from {height:0}
+    to {height}
+}
+
 div{
     padding-top: 12%;
     text-align: center;
@@ -37,13 +42,13 @@ li {
     width: 70px;
 }
 
-.logo{
+h1 {
     font-family: 'Handlee', cursive;
     font-size: 60px;
 }
 
 ul {
-    padding-top: 10px%;
+    padding-top: 10px;
 }
 
 body {
@@ -65,4 +70,23 @@ h1 {
     color:white 
 }
 
+.main {
+    border-radius: 5%;
+    background-color: #000000a0;
+    padding: 20px;
+    position: absolute;
+    margin:auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ok {
+    height: 5px
+}
+
+.men {
+    color:white;
+}
 /*(='X'=)
