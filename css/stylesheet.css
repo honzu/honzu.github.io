@@ -3,9 +3,7 @@
     to {opacity: 100%};
 }
 
-div{
-    padding-top: 12%;
-    text-align: center;
+div{    
     animation-name: fadeIn;
     animation-duration: 3s;
 }
@@ -40,6 +38,8 @@ li {
 h1 {
     font-family: 'Handlee', cursive;
     font-size: 60px;
+    margin-bottom: -7px;
+    margin-top: 30px;
 }
 
 ul {
