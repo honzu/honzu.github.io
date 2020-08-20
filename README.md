@@ -1,2 +1,2 @@
 # honzuwu.wtf
-p website lah
+webgl looks cool
