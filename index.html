@@ -6,7 +6,19 @@
 		<style>
 			body { margin: 0; }
 			canvas { display: block; }
-		</style>
+            #logo {
+                position:absolute;
+                top:57%;
+                width:100%;
+                text-align: center;
+                z-index: 100;
+                display:block;
+                color:white;
+                font-family: 'Raleway', sans-serif;
+                font-size:45px;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	</head>
 	<body>
         <script src="js/three.js"></script>
@@ -29,6 +41,11 @@
                 camera.updateProjectionMatrix();
             });
 
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.autoRotate = true;
+            controls.autoRotateSpeed = 2.3;
+            controls.enabled = false;
+
             var geometry = new THREE.DodecahedronGeometry(1.3);
             var material = new THREE.MeshBasicMaterial({color: 0x000000});
             var mesh = new THREE.Mesh(geometry, material);
@@ -36,15 +53,11 @@
             var lineMaterial = new THREE.MeshBasicMaterial({color: 0x00FF00});
             var line = new THREE.LineSegments(wireframe, lineMaterial);
 
-            var update = function() {
-                mesh.rotation.x += 0.01;
-                mesh.rotation.y += 0.005;
-            };
-
             line.material.depthTest = false;
             line.material.opacity = 0.5;
             line.material.transparent = false;
 
+            scene.translateY(1.4);
             scene.add(line);
             scene.add(mesh);
 
@@ -52,9 +65,10 @@
             var render = function() {
                 requestAnimationFrame(render);
                 renderer.render(scene, camera);
+                controls.update();
             }
-            update();
             render();
-		</script>
+        </script>
+        <div id="logo">honzuwu.wtf</div>
 	</body>
 </html>
