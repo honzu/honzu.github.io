@@ -3,6 +3,11 @@
     to {opacity: 100%};
 }
 
+@keyframes fadeOut {
+    from {opacity: 100%};
+    to {opacity: 0%};
+}
+
 div{    
     animation-name: fadeIn;
     animation-duration: 3s;
@@ -74,11 +79,11 @@ h1 {
     user-select: none; /* Standard syntax */
 }
 
-.ok {
+#ok {
     height: 5px
 }
 
-.men {
+#men {
     color:white;
 }
 /*(='X'=)
