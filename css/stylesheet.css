@@ -3,7 +3,12 @@
     to {opacity: 100%};
 }
 
-div{    
+@keyframes fadeOut {
+    from {opacity: 100%}
+    to {opacity: 0%}
+}
+
+div#home{    
     animation-name: fadeIn;
     animation-duration: 3s;
 }
@@ -41,7 +46,7 @@ ul {
 }
 
 body {
-    background:url(https://b.catgirlsare.sexy/AFO2ZPzm.png);
+    background:url(https://honzuwu.wtf/imgs/witch.png);
     -webkit-background-size: cover;
     -moz-background-size:  cover;
     -o-background-size: cover;
@@ -74,11 +79,11 @@ h1 {
     user-select: none; /* Standard syntax */
 }
 
-.ok {
+#ok {
     height: 5px
 }
 
-.men {
+#men {
     color:white;
 }
 /*(='X'=)
