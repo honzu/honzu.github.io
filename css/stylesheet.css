@@ -52,6 +52,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     backdrop-filter: brightness(60%) blur(6px);
 }
 
