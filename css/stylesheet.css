@@ -53,6 +53,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
     backdrop-filter: brightness(60%) blur(6px);
 }
 
